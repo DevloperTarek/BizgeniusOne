@@ -21,7 +21,6 @@ html,body{
      min-width: 1480px;
      width: 100%;
      padding: 0 1rem;
-     
 }
 h1,h2,h3,h4,h5{
      font-family: 'Teko',sans-serif;
@@ -438,9 +437,9 @@ p,span,button,h6{
 /* .box:nth-child(2){
      border-bottom: 3px solid var(--primary);
 } */
-.box:hover .box_img{
+/* .box:hover{
      background: var(--Primary-background);
-}
+} */
 .box:hover{
      filter: opacity(1);
      border-bottom: 3px solid var(--primary);
@@ -696,7 +695,7 @@ p,span,button,h6{
 }
 .help_center .help_centr_content p > h5 {
      color: var(--Secondery);
-     font-family: Teko;
+     font-family: 'Teko',sans-serif;
      font-size: 20px;
      font-style: normal;
      font-weight: 600;
@@ -824,7 +823,8 @@ p,span,button,h6{
      margin-left: 3%;
 } */
 .agent_wraper{
-     padding-top: 100px ;
+     padding-top: 50px ;
+     padding-bottom: 50px;
 }
 .agent_title{
      display: flex;
@@ -838,7 +838,7 @@ p,span,button,h6{
 }
 .agent_title h5{
      color: var(--Primary, #FE6809);
-     font-family: Teko;
+     font-family: 'Teko',sans-serif;
      font-size: 16px;
      font-style: normal;
      font-weight: 400;
